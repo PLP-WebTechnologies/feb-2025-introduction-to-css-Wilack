@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Page</title>
+    <!-- Linking to external CSS file -->
+    <link rel="stylesheet" href="answers.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="title">Welcome to My Website</h1>
+    </header>
+    
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main class="content">
+        <section id="intro">
+            <h2>About This Page</h2>
+            <p>This page demonstrates linking an external CSS file to style HTML elements.</p>
+            <img src="sample-image.jpg" alt="Sample Image" class="featured-image">
+        </section>
+        
+        <article class="card">
+            <h3>CSS Styling</h3>
+            <p>We're using external CSS to style:</p>
+            <ul class="styled-list">
+                <li>Headers and text</li>
+                <li>Navigation menus</li>
+                <li>Images and layout</li>
+            </ul>
+        </article>
+    </main>
+    
+    <footer class="site-footer">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
